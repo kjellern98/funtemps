@@ -1,9 +1,9 @@
 # funtemps
 TESTE-IMPLEMENTERE 1: Testing (funtemps)
 
-Dette er et Go-program som kan konverterer mellom temperaturenhetene celsius, kelvin or fahrenheit, det kan også vise "funFacts" om solen, månen eller jorden, avhengig av brukerens input.
+Dette er et Go-program som kan konverterer mellom ulike temperaturenheter, det kan også vise "funFacts" om solen, månen eller jorden, avhengig av brukerens input.
 
-Programmet tar innspill fra kommandolinjeargumentene og flaggene, for eksempel temperaturen som skal konverteres, temperaturskalaen og utdataformatet. Den behandler deretter inndata og enten konverterer temperaturen eller viser morsomme fakta, avhengig av flaggene som er gitt.
+Programmet tar inputArgumenter fra komandolinjen og flagg, for eksempel temperaturen som skal konverteres, temperaturskalaen og utdataformatet. Den behandler deretter inndata og enten konverterer temperaturen eller viser morsomme fakta, avhengig av flaggene som er gitt.
 
 Konverteringen utføres ved hjelp av en konverteringspakke(conv) som inneholder funksjoner for å konvertere temperaturenheter mellom Celsius, Fahrenheit og Kelvin. Temperaturkonverteringen utføres basert på brukerens InputEnhet og ønsket UtEnhet. Hvis en ugyldig kombinasjon av inngangsflagg oppdages, returnerer programmet en feilmelding.
 
