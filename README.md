@@ -1,5 +1,4 @@
 # funtemps
-TESTE-IMPLEMENTERE 1: Testing (funtemps)
 
 Dette er et Go-program som kan konverterer mellom ulike temperaturenheter, det kan også vise "funFacts" om solen, månen eller jorden, avhengig av brukerens input.
 
