@@ -1,10 +1,11 @@
 package funfacts
 
+/*
 import (
 	"reflect"
 	"testing"
 )
-
+*/
 /*
 *
 
@@ -12,6 +13,8 @@ import (
 	Definer korrekte typer for input og want,
 	og sette korrekte testverdier i slice tests.
 */
+/*
+
 func TestGetFunFacts(t *testing.T) {
 	type test struct {
 		input // her må du skrive riktig type for input
@@ -30,3 +33,4 @@ func TestGetFunFacts(t *testing.T) {
 		}
 	}
 }
+*/

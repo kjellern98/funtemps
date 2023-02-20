@@ -9,27 +9,27 @@ package conv
     ...
 */
 
-/*
-// Konverterer Farhenheit til Celsius
-func FarhenheitToCelsius(value float64) float64 {
-	// Her skal du implementere funksjonen
-	// Du skal ikke formattere float64 i denne funksjonen
-	// Gjør formattering i main.go med fmt.Printf eller
-	// lignende
-	return 56.67
+func CelsiusToFahrenheit(celsius float64) float64 {
+	return celsius*9/5 + 32
 }
-*/
+
+func CelsiusToKelvin(celsius float64) float64 {
+	// Returnerer Kelvin
+	return celsius + 273.15
+}
 
 func FahrenheitToCelsius(fahrenheit float64) float64 {
-        return (fahrenheit - 32) * 5 / 9
+	return (fahrenheit - 32) * 5 / 9
 }
 
-func CelsiusToFahrenheit(celsius float64) float64 {
-        return celsius*9/5 + 32
+func FahrenheitToKelvin(fahrenheit float64) float64 {
+	return (fahrenheit-32)*5/9 + 273.15
+}
+
+func KelvinToFahrenheit(kelvin float64) float64 {
+	return (kelvin-273.15)*9/5 + 32
 }
 
 func KelvinToCelsius(kelvin float64) float64 {
-        return kelvin - 273.15
+	return kelvin - 273.15
 }
-
-
