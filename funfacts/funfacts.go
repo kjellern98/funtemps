@@ -73,7 +73,7 @@ func GetFunFacts(about string, temperatureScale string) []string {
 	case "K":
 		switch about {
 		case "sun":
-			sunFactOne := "Temperatur på ytre lag av Solen " + getFunfactTemperature(sunSurfaceTemp, "K", "K")
+			sunFactOne := "Temperatur på ytre lag av Solen er " + getFunfactTemperature(sunSurfaceTemp, "K", "K")
 			sunFactTwo := "Temperatur i Solens kjerne er " + getFunfactTemperature(sunCoreTemp, "C", "K")
 			funFactToReturn.Sun = append(funFactToReturn.Sun, sunFactOne, sunFactTwo)
 			return funFactToReturn.Sun
